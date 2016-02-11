@@ -1,0 +1,27 @@
+/* Written by Jørgen Hookham for good times only. */
+
+.cutout {
+    position: relative;
+    left: -15px;
+
+    margin-left: -33%;
+    float: left;
+
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+}
+
+.dat-aside {
+    min-height: 1000px;
+    background-color: #F5F5F5;
+}
+
+.dat-pbody {
+    min-height: 1000px;
+    background-color: #FAFAFA;
+}
+
+.dem-splashes {
+    min-height: 400px;
+    background-color: #8F8F8F;
+}

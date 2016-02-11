@@ -1,0 +1,26 @@
+{
+  "name": "cutout-layout",
+  "authors": [
+    "Jorgen Hookham <Jorgen@Hookham.co>"
+  ],
+  "description": "a layout experiment",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "css",
+    "layout"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3"
+  }
+}
