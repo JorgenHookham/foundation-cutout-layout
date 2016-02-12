@@ -13,16 +13,19 @@
 .dat-aside {
     min-height: 2000px;
     background-color: #F5F5F5;
+    box-shadow: -100px 0 0 #F5F5F5, -300px 0 0 #F5F5F5, -500px 0 0 #F5F5F5;
 }
 
 .dat-pbody {
     min-height: 2000px;
     background-color: #FAFAFA;
+    box-shadow: 100px 0 0 #FAFAFA, 300px 0 0 #FAFAFA, 500px 0 0 #FAFAFA;
 }
 
 .dem-splashes {
     min-height: 400px;
     background-color: #8F8F8F;
+    box-shadow: 100px 0 0 #8F8F8F, 300px 0 0 #8F8F8F, 500px 0 0 #8F8F8F, -100px 0 0 #8F8F8F, -300px 0 0 #8F8F8F, -500px 0 0 #8F8F8F;
 }
 
 @media screen and (max-width: 640px) {
