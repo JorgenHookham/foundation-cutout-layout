@@ -4,7 +4,6 @@
     position: relative;
     left: -15px;
 
-    margin-left: -33%;
     float: left;
 
     background-color: #FFFFFF;
@@ -12,16 +11,43 @@
 }
 
 .dat-aside {
-    min-height: 1000px;
+    min-height: 2000px;
     background-color: #F5F5F5;
 }
 
 .dat-pbody {
-    min-height: 1000px;
+    min-height: 2000px;
     background-color: #FAFAFA;
 }
 
 .dem-splashes {
     min-height: 400px;
     background-color: #8F8F8F;
+}
+
+@media screen and (max-width: 640px) {
+    .dat-pbody-header {
+        position: absolute;
+        top: 0; right: 0; left: 1rem;
+    }
+    .cutout {
+        // margin-top: 4rem;
+        margin-left: -1.5rem;
+    }
+
+    .dat-pbody > h2:first-of-type {
+        position: absolute;
+        left: 1rem; right: 0;
+    }
+
+    /* cloning the folding nav layout */
+    .dat-container { position: relative; overflow: hidden; }
+    .dat-aside { position: absolute; top: 0; left: 0; }
+    .dat-pbody { position: relative; left: 2rem; padding-right: 2.5rem; }
+}
+
+@media screen and (min-width: 640px) {
+    .cutout {
+        margin-left: -33%;
+    }
 }
